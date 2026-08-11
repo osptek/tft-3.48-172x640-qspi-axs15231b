@@ -2,7 +2,7 @@
 
 <h1 align="center">OSPTEK 3.48″ TFT 172×640 (AXS15231B · QSPI)</h1>
 
-<p align="center"><b>Bar TFT · QSPI · AXS15231B</b></p>
+<p align="center"><b>Bar TFT · QSPI · AXS15231B · Capacitive touch</b></p>
 
 <p align="center">English | <a href="./README.md">简体中文</a></p>
 
@@ -13,11 +13,14 @@
   <img alt="Driver: AXS15231B" src="https://img.shields.io/badge/Driver-AXS15231B-E7352C?style=flat-square" />
 </p>
 
+<p align="center"><img alt="OSPTEK 3.48&quot; 172×640 TFT QSPI module (AXS15231B) product image" src="./images/product.png" width="640" /></p>
+
 ## Contents
 
 - [Overview](#overview)
 - [Specifications](#specifications)
 - [Repository layout](#repository-layout)
+- [Resources](#resources)
 - [Where to Buy](#where-to-buy)
 - [Support](#support)
 
@@ -25,11 +28,11 @@
 
 ## Overview
 
-OSPTEK **3.48″ 172×640 TFT** is a **QSPI** color display module driven by **AXS15231B**. The tall aspect ratio suits bar HMIs, side status strips, and compact info panels.
+OSPTEK **3.48″ 172×640 TFT** is a **QSPI** color display module driven by **AXS15231B** (display + capacitive touch). The tall aspect ratio suits bar HMIs, side status strips, and compact info panels.
 
 Repo id: `3.48-tft-172x640-qspi-axs15231b`
 
-Electrical and mechanical details follow the product datasheet under `docs/`.
+Current module version: **YDP348BT001-V1**. Electrical and mechanical details follow [`docs/YDP348BT001-V1.pdf`](./docs/YDP348BT001-V1.pdf).
 
 ## Specifications
 
@@ -40,6 +43,7 @@ Electrical and mechanical details follow the product datasheet under `docs/`.
 | Resolution | 172×640 |
 | Interface | QSPI |
 | Driver IC | AXS15231B |
+| Touch IC | AXS15231B |
 
 > Full outline, FPC definition, power, and timing follow the product datasheet / driver IC datasheet.
 
@@ -51,9 +55,16 @@ Electrical and mechanical details follow the product datasheet under `docs/`.
 ├── README_EN.md
 ├── LICENSE
 ├── images/          # README images
-├── docs/            # datasheets, init files
+├── docs/            # datasheets, adapter docs
 └── examples/        # sample projects
 ```
+
+## Resources
+
+| Resource | Link |
+| -------- | ---- |
+| Product datasheet (YDP348BT001-V1) | [`docs/YDP348BT001-V1.pdf`](./docs/YDP348BT001-V1.pdf) |
+| Adapter board (S3 DEMO carrier) | [`docs/3.48寸TFT转接板_适配S3 DEMO底板.pdf`](./docs/3.48%E5%AF%B8TFT%E8%BD%AC%E6%8E%A5%E6%9D%BF_%E9%80%82%E9%85%8DS3%20DEMO%E5%BA%95%E6%9D%BF.pdf) |
 
 ## Where to Buy
 

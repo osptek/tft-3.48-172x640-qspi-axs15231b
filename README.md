@@ -2,7 +2,7 @@
 
 <h1 align="center">OSPTEK 3.48″ TFT 172×640（AXS15231B · QSPI）</h1>
 
-<p align="center"><b>条状 TFT · QSPI · AXS15231B</b></p>
+<p align="center"><b>条状 TFT · QSPI · AXS15231B · 电容触摸</b></p>
 
 <p align="center"><a href="./README_EN.md">English</a> | 简体中文</p>
 
@@ -13,11 +13,14 @@
   <img alt="Driver: AXS15231B" src="https://img.shields.io/badge/Driver-AXS15231B-E7352C?style=flat-square" />
 </p>
 
+<p align="center"><img alt="OSPTEK 3.48 寸 172×640 TFT QSPI 模组（AXS15231B）宣传图" src="./images/product.png" width="640" /></p>
+
 ## 目录
 
 - [产品简介](#产品简介)
 - [规格参数](#规格参数)
 - [仓库结构](#仓库结构)
+- [相关资料](#相关资料)
 - [购买链接](#购买链接)
 - [技术支持](#技术支持)
 
@@ -25,11 +28,11 @@
 
 ## 产品简介
 
-OSPTEK **3.48 寸 172×640 TFT** 是一款 **QSPI** 接口彩色显示模组，驱动芯片为 **AXS15231B**。细长分辨率适合条形 HMI、侧边状态条与紧凑信息面板等场景。
+OSPTEK **3.48 寸 172×640 TFT** 是一款 **QSPI** 接口彩色显示模组，驱动芯片为 **AXS15231B**（显示与电容触摸一体）。细长分辨率适合条形 HMI、侧边状态条与紧凑信息面板等场景。
 
 规格标识（仓库名）：`3.48-tft-172x640-qspi-axs15231b`
 
-电气与外形细节以 `docs/` 中产品规格书为准。
+当前模组版本：**YDP348BT001-V1**。电气与外形细节以 [`docs/YDP348BT001-V1.pdf`](./docs/YDP348BT001-V1.pdf) 为准。
 
 ## 规格参数
 
@@ -40,6 +43,7 @@ OSPTEK **3.48 寸 172×640 TFT** 是一款 **QSPI** 接口彩色显示模组，�
 | 分辨率 | 172×640 |
 | 接口 | QSPI |
 | 驱动 IC | AXS15231B |
+| 触摸驱动 | AXS15231B |
 
 > 完整外形尺寸、FPC 定义、供电与时序以产品规格书 / 驱动手册为准。
 
@@ -51,9 +55,16 @@ OSPTEK **3.48 寸 172×640 TFT** 是一款 **QSPI** 接口彩色显示模组，�
 ├── README_EN.md
 ├── LICENSE
 ├── images/          # README 用图
-├── docs/            # 规格书、驱动手册、初始化等
+├── docs/            # 规格书、转接板资料等
 └── examples/        # 示例工程
 ```
+
+## 相关资料
+
+| 资料 | 链接 |
+| ---- | ---- |
+| 产品规格书（YDP348BT001-V1） | [`docs/YDP348BT001-V1.pdf`](./docs/YDP348BT001-V1.pdf) |
+| 转接板资料（适配 S3 DEMO 底板） | [`docs/3.48寸TFT转接板_适配S3 DEMO底板.pdf`](./docs/3.48%E5%AF%B8TFT%E8%BD%AC%E6%8E%A5%E6%9D%BF_%E9%80%82%E9%85%8DS3%20DEMO%E5%BA%95%E6%9D%BF.pdf) |
 
 ## 购买链接
 
