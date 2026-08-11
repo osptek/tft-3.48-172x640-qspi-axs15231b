@@ -2,7 +2,7 @@
 
 <h1 align="center">OSPTEK 3.48″ TFT 172×640（AXS15231B · QSPI）</h1>
 
-<p align="center"><b>条状 TFT · QSPI · AXS15231B · 电容触摸</b></p>
+<p align="center"><b>条状 TFT · QSPI · AXS15231B · 多版本索引</b></p>
 
 <p align="center"><a href="./README_EN.md">English</a> | 简体中文</p>
 
@@ -13,58 +13,51 @@
   <img alt="Driver: AXS15231B" src="https://img.shields.io/badge/Driver-AXS15231B-E7352C?style=flat-square" />
 </p>
 
-<p align="center"><img alt="OSPTEK 3.48 寸 172×640 TFT QSPI 模组（AXS15231B）宣传图" src="./images/product.png" width="640" /></p>
-
 ## 目录
 
-- [产品简介](#产品简介)
-- [规格参数](#规格参数)
-- [仓库结构](#仓库结构)
-- [相关资料](#相关资料)
+- [说明](#说明)
+- [版本一览](#版本一览)
+- [YDP348BT001-V1](#ydp348bt001-v1)
+- [如何切换分支](#如何切换分支)
 - [购买链接](#购买链接)
 - [技术支持](#技术支持)
 
 ---
 
-## 产品简介
+## 说明
 
-OSPTEK **3.48 寸 172×640 TFT** 是一款 **QSPI** 接口彩色显示模组，驱动芯片为 **AXS15231B**（显示与电容触摸一体）。细长分辨率适合条形 HMI、侧边状态条与紧凑信息面板等场景。
+本仓库收录 **3.48 寸 172×640 TFT（QSPI · AXS15231B）** 显示模组资料。
+
+**`main` 为导航页**（仓库默认分支）。下表可快速浏览各版本；点击「说明」跳转到本页下方的详细介绍。需要某一版本的完整内容时，请切换到对应**版本分支**（方法见下文）。
 
 规格标识（仓库名）：`3.48-tft-172x640-qspi-axs15231b`
 
-当前模组版本：**YDP348BT001-V1**。电气与外形细节以 [`docs/YDP348BT001-V1.pdf`](./docs/YDP348BT001-V1.pdf) 为准。
+---
 
-## 规格参数
+## 版本一览
 
-| 项目 | 规格 |
-| ---- | ---- |
-| 尺寸 | 3.48 英寸 |
-| 类型 | TFT（彩色） |
-| 分辨率 | 172×640 |
-| 接口 | QSPI |
-| 驱动 IC | AXS15231B |
-| 触摸驱动 | AXS15231B |
+| 版本 | 宣传图 | 说明 |
+| ---- | ------ | ---- |
+| YDP348BT001-V1 | <img alt="YDP348BT001-V1" src="./images/YDP348BT001-V1.png" width="120" /> | [查看详情](#ydp348bt001-v1) |
 
-> 完整外形尺寸、FPC 定义、供电与时序以产品规格书 / 驱动手册为准。
+---
 
-## 仓库结构
+## YDP348BT001-V1
 
-```text
-3.48-tft-172x640-qspi-axs15231b/
-├── README.md
-├── README_EN.md
-├── LICENSE
-├── images/          # README 用图
-├── docs/            # 规格书、转接板资料等
-└── examples/        # 示例工程
-```
+<p align="center"><img alt="YDP348BT001-V1" src="./images/YDP348BT001-V1.png" width="320" /></p>
 
-## 相关资料
+**说明：** 模组，带触摸（AXS15231B）。
 
-| 资料 | 链接 |
-| ---- | ---- |
-| 产品规格书（YDP348BT001-V1） | [`docs/YDP348BT001-V1.pdf`](./docs/YDP348BT001-V1.pdf) |
-| 转接板资料（适配 S3 DEMO 底板） | [`docs/3.48寸TFT转接板_适配S3 DEMO底板.pdf`](./docs/3.48%E5%AF%B8TFT%E8%BD%AC%E6%8E%A5%E6%9D%BF_%E9%80%82%E9%85%8DS3%20DEMO%E5%BA%95%E6%9D%BF.pdf) |
+---
+
+## 如何切换分支
+
+完整产品资料在各**版本分支**中；`main` 仅作导航。
+
+- **网页：** 在仓库页左上角打开分支下拉框，选择与料号对应的版本分支即可。
+- **命令行：** 克隆本仓库后执行 `git checkout <版本分支名>`；若本地已有仓库，先 `git fetch` 再切换。
+
+---
 
 ## 购买链接
 
@@ -81,6 +74,8 @@ OSPTEK **3.48 寸 172×640 TFT** 是一款 **QSPI** 接口彩色显示模组，�
 **海外（AliExpress）**
 
 - 店铺：[OSPTEK Official Store](https://www.aliexpress.com/store/1105701619)
+
+---
 
 ## 技术支持
 

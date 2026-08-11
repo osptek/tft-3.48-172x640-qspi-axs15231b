@@ -2,7 +2,7 @@
 
 <h1 align="center">OSPTEK 3.48″ TFT 172×640 (AXS15231B · QSPI)</h1>
 
-<p align="center"><b>Bar TFT · QSPI · AXS15231B · Capacitive touch</b></p>
+<p align="center"><b>Bar TFT · QSPI · AXS15231B · Multi-Version Index</b></p>
 
 <p align="center">English | <a href="./README.md">简体中文</a></p>
 
@@ -13,58 +13,51 @@
   <img alt="Driver: AXS15231B" src="https://img.shields.io/badge/Driver-AXS15231B-E7352C?style=flat-square" />
 </p>
 
-<p align="center"><img alt="OSPTEK 3.48&quot; 172×640 TFT QSPI module (AXS15231B) product image" src="./images/product.png" width="640" /></p>
-
 ## Contents
 
-- [Overview](#overview)
-- [Specifications](#specifications)
-- [Repository layout](#repository-layout)
-- [Resources](#resources)
+- [About](#about)
+- [Versions](#versions)
+- [YDP348BT001-V1](#ydp348bt001-v1)
+- [How to Switch Branches](#how-to-switch-branches)
 - [Where to Buy](#where-to-buy)
 - [Support](#support)
 
 ---
 
-## Overview
+## About
 
-OSPTEK **3.48″ 172×640 TFT** is a **QSPI** color display module driven by **AXS15231B** (display + capacitive touch). The tall aspect ratio suits bar HMIs, side status strips, and compact info panels.
+This repository holds materials for the **3.48″ 172×640 TFT (QSPI · AXS15231B)** module family.
+
+**`main` is the navigation page** (repository default). Use the table below for a quick scan; click **Details** to jump to the section on this page. For a given version’s full content, switch to that **version branch** (see below).
 
 Repo id: `3.48-tft-172x640-qspi-axs15231b`
 
-Current module version: **YDP348BT001-V1**. Electrical and mechanical details follow [`docs/YDP348BT001-V1.pdf`](./docs/YDP348BT001-V1.pdf).
+---
 
-## Specifications
+## Versions
 
-| Item | Spec |
-| ---- | ---- |
-| Size | 3.48 inch |
-| Type | TFT (color) |
-| Resolution | 172×640 |
-| Interface | QSPI |
-| Driver IC | AXS15231B |
-| Touch IC | AXS15231B |
+| Version | Image | Notes |
+| ------- | ----- | ----- |
+| YDP348BT001-V1 | <img alt="YDP348BT001-V1" src="./images/YDP348BT001-V1.png" width="120" /> | [Details](#ydp348bt001-v1) |
 
-> Full outline, FPC definition, power, and timing follow the product datasheet / driver IC datasheet.
+---
 
-## Repository layout
+## YDP348BT001-V1
 
-```text
-3.48-tft-172x640-qspi-axs15231b/
-├── README.md
-├── README_EN.md
-├── LICENSE
-├── images/          # README images
-├── docs/            # datasheets, adapter docs
-└── examples/        # sample projects
-```
+<p align="center"><img alt="YDP348BT001-V1" src="./images/YDP348BT001-V1.png" width="320" /></p>
 
-## Resources
+**Notes:** Module; with touch (AXS15231B).
 
-| Resource | Link |
-| -------- | ---- |
-| Product datasheet (YDP348BT001-V1) | [`docs/YDP348BT001-V1.pdf`](./docs/YDP348BT001-V1.pdf) |
-| Adapter board (S3 DEMO carrier) | [`docs/3.48寸TFT转接板_适配S3 DEMO底板.pdf`](./docs/3.48%E5%AF%B8TFT%E8%BD%AC%E6%8E%A5%E6%9D%BF_%E9%80%82%E9%85%8DS3%20DEMO%E5%BA%95%E6%9D%BF.pdf) |
+---
+
+## How to Switch Branches
+
+Full product materials are on each **version branch**; `main` is navigation only.
+
+- **Web:** open the branch dropdown at the top left of the repository page and select the branch that matches your part number.
+- **CLI:** after cloning, run `git checkout <version-branch>`; if the repo is already local, `git fetch` first, then switch.
+
+---
 
 ## Where to Buy
 
@@ -81,6 +74,8 @@ Current module version: **YDP348BT001-V1**. Electrical and mechanical details fo
 **China (Taobao)**
 
 - Store: [鱼鹰光电工厂店](https://shop110742373.taobao.com/)
+
+---
 
 ## Support
 
