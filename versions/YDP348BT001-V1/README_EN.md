@@ -2,7 +2,7 @@
 
 <h1 align="center">OSPTEK 3.48″ TFT 172×640 (AXS15231B · QSPI)</h1>
 
-<p align="center"><b>Bar TFT · QSPI · AXS15231B · Multi-Version Index</b></p>
+<p align="center"><b>Bar TFT · QSPI · AXS15231B · Capacitive touch</b></p>
 
 <p align="center">English | <a href="./README.md">简体中文</a></p>
 
@@ -13,43 +13,59 @@
   <img alt="Driver: AXS15231B" src="https://img.shields.io/badge/Driver-AXS15231B-E7352C?style=flat-square" />
 </p>
 
+<p align="center"><img alt="OSPTEK 3.48&quot; 172×640 TFT QSPI module (AXS15231B) product image" src="./images/product.png" width="640" /></p>
+
 ## Contents
 
-- [About](#about)
-- [Versions](#versions)
-- [YDP348BT001-V1](#ydp348bt001-v1)
+- [Overview](#overview)
+- [Specifications](#specifications)
+- [Repository layout](#repository-layout)
+- [Resources](#resources)
 - [Where to Buy](#where-to-buy)
 - [Support](#support)
 
 ---
 
-## About
+## Overview
 
-This repository holds materials for the **3.48″ 172×640 TFT (QSPI · AXS15231B)** module family.
-
-The **root README is the navigation page**. Use the table below for a quick scan; open **Full docs** to enter that **part-number folder** under `versions/` (product page, datasheets, and examples live there).
+OSPTEK **3.48″ 172×640 TFT** is a **QSPI** color display module driven by **AXS15231B** (display + capacitive touch). The tall aspect ratio suits bar HMIs, side status strips, and compact info panels.
 
 Repo id: `3.48-tft-172x640-qspi-axs15231b`
 
----
+Current module version: **YDP348BT001-V1**. Electrical and mechanical details follow [`docs/YDP348BT001-V1.pdf`](./docs/YDP348BT001-V1.pdf).
 
-## Versions
+## Specifications
 
-| Version | Image | Summary | Full docs |
-| ------- | ----- | ------- | --------- |
-| YDP348BT001-V1 | <img alt="YDP348BT001-V1" src="./versions/YDP348BT001-V1/images/product.png" width="120" /> | [Summary](#ydp348bt001-v1) | [Full docs](./versions/YDP348BT001-V1/) |
+| Item | Spec |
+| ---- | ---- |
+| Size | 3.48 inch |
+| Type | TFT (color) |
+| Resolution | 172×640 |
+| Interface | QSPI |
+| Driver IC | AXS15231B |
+| Touch IC | AXS15231B |
 
----
+> Full outline, FPC definition, power, and timing follow the product datasheet / driver IC datasheet.
 
-## YDP348BT001-V1
+## Repository layout
 
-<p align="center"><img alt="YDP348BT001-V1" src="./versions/YDP348BT001-V1/images/product.png" width="320" /></p>
+```text
+3.48-tft-172x640-qspi-axs15231b/                                # repo root (nav: ../../README_EN.md)
+└── versions/
+    └── YDP348BT001-V1/                                # full materials for this part number
+        ├── README.md
+        ├── README_EN.md
+        ├── images/
+        ├── docs/
+        └── examples/
+```
 
-**Notes:** Module; with touch (AXS15231B).
+## Resources
 
-Full product page, datasheets, and examples: [versions/YDP348BT001-V1/](./versions/YDP348BT001-V1/)
-
----
+| Resource | Link |
+| -------- | ---- |
+| Product datasheet (YDP348BT001-V1) | [`docs/YDP348BT001-V1.pdf`](./docs/YDP348BT001-V1.pdf) |
+| Adapter board (S3 DEMO carrier) | [`docs/3.48寸TFT转接板_适配S3 DEMO底板.pdf`](./docs/3.48%E5%AF%B8TFT%E8%BD%AC%E6%8E%A5%E6%9D%BF_%E9%80%82%E9%85%8DS3%20DEMO%E5%BA%95%E6%9D%BF.pdf) |
 
 ## Where to Buy
 
@@ -66,8 +82,6 @@ Full product page, datasheets, and examples: [versions/YDP348BT001-V1/](./versio
 **China (Taobao)**
 
 - Store: [鱼鹰光电工厂店](https://shop110742373.taobao.com/)
-
----
 
 ## Support
 
