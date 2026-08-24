@@ -19,6 +19,7 @@
 
 - [Overview](#overview)
 - [Specifications](#specifications)
+- [Examples](#examples)
 - [Repository layout](#repository-layout)
 - [Resources](#resources)
 - [Where to Buy](#where-to-buy)
@@ -47,6 +48,13 @@ Current module version: **YDP348BT001-V1**. Electrical and mechanical details fo
 
 > Full outline, FPC definition, power, and timing follow the product datasheet / driver IC datasheet.
 
+## Examples
+
+| Description | Path |
+| ----------- | ---- |
+| ESP32-S3 · AXS15231B QSPI + LVGL8 | [`examples/esp32s3-idf5_axs15231b-qspi_lvgl8/`](./examples/esp32s3-idf5_axs15231b-qspi_lvgl8/) |
+| ESP32-S3 · AXS15231B QSPI + LVGL8 (alternate pin map, from 3.48TFT_QSPI) | [`examples/esp32s3-idf5_3.48tft-qspi_lvgl8/`](./examples/esp32s3-idf5_3.48tft-qspi_lvgl8/) |
+
 ## Repository layout
 
 ```text
@@ -57,7 +65,7 @@ Current module version: **YDP348BT001-V1**. Electrical and mechanical details fo
         ├── README_EN.md
         ├── images/
         ├── docs/
-        └── examples/
+        └── examples/                  # example projects
 ```
 
 ## Resources
@@ -66,6 +74,11 @@ Current module version: **YDP348BT001-V1**. Electrical and mechanical details fo
 | -------- | ---- |
 | Product datasheet (YDP348BT001-V1) | [`docs/YDP348BT001-V1.pdf`](./docs/YDP348BT001-V1.pdf) |
 | Adapter board (S3 DEMO carrier) | [`docs/3.48寸TFT转接板_适配S3 DEMO底板.pdf`](./docs/3.48%E5%AF%B8TFT%E8%BD%AC%E6%8E%A5%E6%9D%BF_%E9%80%82%E9%85%8DS3%20DEMO%E5%BA%95%E6%9D%BF.pdf) |
+
+### Examples
+
+- [ESP32-S3 AXS15231B QSPI + LVGL8](./examples/esp32s3-idf5_axs15231b-qspi_lvgl8/)
+- [ESP32-S3 AXS15231B QSPI + LVGL8 (alternate pin map)](./examples/esp32s3-idf5_3.48tft-qspi_lvgl8/)
 
 ## Where to Buy
 

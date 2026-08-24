@@ -19,6 +19,7 @@
 
 - [产品简介](#产品简介)
 - [规格参数](#规格参数)
+- [示例工程](#示例工程)
 - [仓库结构](#仓库结构)
 - [相关资料](#相关资料)
 - [购买链接](#购买链接)
@@ -47,6 +48,13 @@ OSPTEK **3.48 寸 172×640 TFT** 是一款 **QSPI** 接口彩色显示模组，�
 
 > 完整外形尺寸、FPC 定义、供电与时序以产品规格书 / 驱动手册为准。
 
+## 示例工程
+
+| 说明 | 路径 |
+| ---- | ---- |
+| ESP32-S3 · AXS15231B QSPI + LVGL8 | [`examples/esp32s3-idf5_axs15231b-qspi_lvgl8/`](./examples/esp32s3-idf5_axs15231b-qspi_lvgl8/) |
+| ESP32-S3 · AXS15231B QSPI + LVGL8（另一套引脚，源自 3.48TFT_QSPI） | [`examples/esp32s3-idf5_3.48tft-qspi_lvgl8/`](./examples/esp32s3-idf5_3.48tft-qspi_lvgl8/) |
+
 ## 仓库结构
 
 ```text
@@ -57,7 +65,7 @@ OSPTEK **3.48 寸 172×640 TFT** 是一款 **QSPI** 接口彩色显示模组，�
         ├── README_EN.md
         ├── images/
         ├── docs/
-        └── examples/
+        └── examples/                  # 示例工程
 ```
 
 ## 相关资料
@@ -66,6 +74,11 @@ OSPTEK **3.48 寸 172×640 TFT** 是一款 **QSPI** 接口彩色显示模组，�
 | ---- | ---- |
 | 产品规格书（YDP348BT001-V1） | [`docs/YDP348BT001-V1.pdf`](./docs/YDP348BT001-V1.pdf) |
 | 转接板资料（适配 S3 DEMO 底板） | [`docs/3.48寸TFT转接板_适配S3 DEMO底板.pdf`](./docs/3.48%E5%AF%B8TFT%E8%BD%AC%E6%8E%A5%E6%9D%BF_%E9%80%82%E9%85%8DS3%20DEMO%E5%BA%95%E6%9D%BF.pdf) |
+
+### 示例工程
+
+- [ESP32-S3 AXS15231B QSPI + LVGL8](./examples/esp32s3-idf5_axs15231b-qspi_lvgl8/)
+- [ESP32-S3 AXS15231B QSPI + LVGL8（另一套引脚）](./examples/esp32s3-idf5_3.48tft-qspi_lvgl8/)
 
 ## 购买链接
 
