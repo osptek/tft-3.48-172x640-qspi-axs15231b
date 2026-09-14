@@ -29,7 +29,7 @@ This repository holds materials for the **3.48″ 172×640 TFT (QSPI · AXS15231
 
 The **root README is the navigation page**. Use the table below for a quick scan; open **Full docs** to enter that **part-number folder** under `versions/` (product page, datasheets, and examples live there).
 
-Repo id: `3.48-tft-172x640-qspi-axs15231b`
+Repo id: `tft-3.48-172x640-qspi-axs15231b`
 
 ---
 

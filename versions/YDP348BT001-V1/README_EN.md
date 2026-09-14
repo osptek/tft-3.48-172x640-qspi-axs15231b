@@ -31,7 +31,7 @@
 
 OSPTEK **3.48″ 172×640 TFT** is a **QSPI** color display module driven by **AXS15231B** (display + capacitive touch). The tall aspect ratio suits bar HMIs, side status strips, and compact info panels.
 
-Repo id: `3.48-tft-172x640-qspi-axs15231b`
+Repo id: `tft-3.48-172x640-qspi-axs15231b`
 
 Current module version: **YDP348BT001-V1**. Electrical and mechanical details follow [`docs/YDP348BT001-V1.pdf`](./docs/YDP348BT001-V1.pdf).
 
@@ -58,7 +58,7 @@ Current module version: **YDP348BT001-V1**. Electrical and mechanical details fo
 ## Repository layout
 
 ```text
-3.48-tft-172x640-qspi-axs15231b/                                # repo root (nav: ../../README_EN.md)
+tft-3.48-172x640-qspi-axs15231b/                                # repo root (nav: ../../README_EN.md)
 └── versions/
     └── YDP348BT001-V1/                                # full materials for this part number
         ├── README.md
