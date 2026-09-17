@@ -1,0 +1,14 @@
+id: tft-3.48-172x640-qspi-axs15231b
+category: displays
+
+size: "3.48"
+panel: tft
+resolution: 172x640
+interface: [qspi]
+shape: bar
+
+versions:
+  - id: YDP348BT001-V1
+    driver: AXS15231B
+    touch: AXS15231B
+    note: none
