@@ -6,6 +6,7 @@ panel: tft
 resolution: 172x640
 interface: [qspi]
 shape: rect
+corner: rounded
 
 versions:
   - id: YDP348BT001-V1
